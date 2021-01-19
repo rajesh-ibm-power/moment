@@ -5,7 +5,9 @@ node_js:
   - "10"
   - "8"
 sudo: false
-
+arch:
+  - amd64
+  - ppc64le
 env:
   global:
     - secure: "M4STT2TOZxjzv3cZOgSVi0J4j6enrGjgE+p5YTNUw+S6Dg6FS5pTIPeafu1kGhfm7F0uk7xPVwGKYb+3uWNO9IhkKXz8jySMMQ2iKISHwECGNNuFNjSMD1vIjbIkLwV8TyPO/PurQg2s+WtYz+DoAZsDFKpdaRUtif64OjdQ3vQ="
